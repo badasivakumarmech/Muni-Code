@@ -1,0 +1,54 @@
+create table LOCATIONS(Location_ID int primary key,
+			Regional_Group varchar(100) not null)
+
+insert into LOCATIONS values(122,'NEW YORK'),(123,'DALLAS'),(124,'CHICAGO'),(127,'BOSTON')
+
+select *from LOCATIONS
+-----------------------------------------
+create table DEPARTMENT(Department_ID int primary key,
+						Names varchar(100) not null,
+						Location_ID int references LOCATIONS(Location_ID))
+
+insert into DEPARTMENT values(10,'ACCOUNTING',122),(20,'RESEARCH',124),(30,'SALES',123),(40,'OPERATIONS',127)
+
+select * from DEPARTMENT
+-------------------------------------------
+create table JOB(Job_ID int primary key,
+				 Functions varchar(100))
+
+insert into JOB values(667,'CLERK'),(668,'STAFF'),(669,'ANALYST'),
+				(670,'SALESPERSON'),(671,'MANAGER'),(672,'PRESIDENT')
+
+select * from JOB
+---------------------------------------------------
+create table MANAGERS(Manager_ID int primary key,Name varchar(100) not null)
+
+insert into MANAGERS values(7902,'Krishna'),(7698,'Ramu'),(7839,'Rammurthy'),(7001,'Siva Kumar')
+
+select * from MANAGERS
+-------------------------------------------------
+create table EMPLOYEE(EMPLOYEE_ID INT PRIMARY KEY,
+			LAST_NAME VARCHAR(100) NOT NULL,
+			FIRST_NAME VARCHAR(100) NOT NULL,
+			MIDDLE_NAME VARCHAR(100) NOT NULL,
+			JOB_ID INT REFERENCES JOB(Job_ID),
+			MANAGER_ID INT REFERENCES MANAGERS(Manager_Id),
+			HIREDATE DATE NOT NULL,
+			COMM MONEY,
+			SALARY MONEY)
+
+insert into EMPLOYEE Values(7369,'SMITH','JOHN','Q',667,7902,'08/09/2000',800,NULL,20),
+			   (7499,'ALLEN','KEVIN','J',670,7698,'09/08/2020',1600,300,30),
+			(7505,'DOYLE','JEAN','K',671,7839,'07/06/2022',2850,NULL,30)
+
+Select * from EMPLOYEE
+
+
+
+
+
+
+
+
+
+

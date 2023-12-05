@@ -1,0 +1,26 @@
+What are the names and teams of all batsmen who played in 2018?
+Which teams are represented by all the batsmen from 2019?
+What are the total runs scored by all the batsmen in 2018?
+List the Chennai batsmen name and total number of matches played in 2019?
+What are the names and runs incurred by the bowlers in the 2018? Show the bowlers who gave the least amount of runs first?
+Show the bowlers who gave the least amount of runs first?
+List the names of teams and the bowlers from 2019?
+List the 2018 teams that played that had at least one bowler who took 4 wickets haul?
+List two bowlers who gave the least amount of runs across all teams in 2018?
+Name two bowlers who took most number of wickets?
+What are the names and teams of all Allrounders in the year 2018?
+Show the list of batsmen who played in 2018 as well in 2019?
+How many batsmen were there in each team in 2019? 
+Now show the data sorted by the number of batsmen in descending order?
+ How many bowlers were there in each team in 2018 who took at least one 4 wicket haul? 
+ Show the top 2 teams that had most number of such bowers?
+What are the names of top 2 teams which consists of most number of bowlers in 2018?
+Which bowlers took the most wickets in the 2018 season?
+Which batsmen scored the most runs in the 2018 season while maintaining an average strike rate of at least 130?
+Which bowlers took the most wickets in the 2018 season while maintaining an economy rate of less than 7 runs per over?
+Which batsmen scored the most runs across both 2018 and 2019 seasons?
+Which batsmen has hit the maximum number of boundaries in 2018, combining 4s and 6s?
+Name the bowlers who have got 4 wickets haul in 2019?
+Name  5 such bowlers who bowled the least number of overs in 2018?
+Which team scored the maximum number of runs in 2019?
+Name the Batsmen who has hit maximum half centuries, both the years combined?
